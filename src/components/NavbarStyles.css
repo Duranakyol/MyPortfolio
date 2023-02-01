@@ -9,6 +9,13 @@
   z-index: 10;
 }
 
+.icon {
+  color: white;
+  margin: 3px;
+  position: relative;
+  top: 3px;
+}
+
 .header-bg {
   background-color: rgba(0, 0, 0, 0.85);
   transition: 0.5s;
