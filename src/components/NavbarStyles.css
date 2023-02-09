@@ -9,6 +9,20 @@
   z-index: 10;
 }
 
+.header img {
+  width: 120px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.header span {
+  color: #fff;
+  font-size: 1.9rem;
+  position: relative;
+  top: -30px;
+}
+
 .icon {
   color: white;
   margin: 3px;

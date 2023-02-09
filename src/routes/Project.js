@@ -2,17 +2,16 @@ import React from "react";
 import Footer from "../components/Footer";
 import HeroImg2 from "../components/HeroImg2";
 import Navbar from "../components/Navbar";
-import ProjectCard from "../components/ProjectCard";
+import Kompetenzen from "../components/Kompetenzen";
 import Work from "../components/Work";
 
 const Project = () => {
   return (
     <div>
       <Navbar />
-      <HeroImg2 heading="PROJECTS" text="Some of my most recent works" />
+      <HeroImg2 heading="PROJECTS" text="Sie können meine Projekte finden" />
       <Work />
-      {/*simdi burada projectCard kalmayacak bunu kaldir*/}
-      <ProjectCard />
+      <Kompetenzen />
       <Footer />
     </div>
   );

@@ -1,11 +1,12 @@
 import React from "react";
 import {
-  FaFacebook,
   FaGithub,
   FaHome,
   FaLinkedin,
   FaMailBulk,
+  FaMedium,
   FaPhone,
+  FaXing,
 } from "react-icons/fa";
 import "./FooterStyles.css";
 
@@ -36,7 +37,7 @@ const Footer = () => {
                 size={20}
                 style={{ color: "#fff", marginRight: "2rem" }}
               />
-              duran.akyol@yahoo.com
+              <a href="mailto:duran.akyol.yahoo.com">duran.akyol@yahoo.com</a>
             </h4>
           </div>
         </div>
@@ -49,18 +50,34 @@ const Footer = () => {
             einzusetzen.
           </p>
           <div className="social">
-            <FaFacebook
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaGithub
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
-            <FaLinkedin
-              size={30}
-              style={{ color: "#fff", marginRight: "1rem" }}
-            />
+            {" "}
+            <a href="https://www.linkedin.com/in/duranakyol/" target="blank">
+              <FaLinkedin
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+            <a href="https://github.com/Duranakyol" target="blank">
+              <FaGithub
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+            <a
+              href="https://www.xing.com/profile/Duran_Akyol/cv"
+              target="blank"
+            >
+              <FaXing
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
+            <a href="https://medium.com/@duranakyol71" target="blank">
+              <FaMedium
+                size={30}
+                style={{ color: "#fff", marginRight: "1rem" }}
+              />
+            </a>
           </div>
         </div>
       </div>

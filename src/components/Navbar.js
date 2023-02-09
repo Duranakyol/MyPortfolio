@@ -9,6 +9,7 @@ import {
   FaPhoneAlt,
   FaTimes,
 } from "react-icons/fa";
+import Logo2 from "../assets/Logo2.jpg";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -30,7 +31,8 @@ const Navbar = () => {
   return (
     <div className={color ? "header header-bg" : "header"}>
       <Link to="/">
-        <h1>D.Akyol</h1>
+        <img src={Logo2} alt="Logo" />
+        <span>D.Akyol</span>
       </Link>
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>

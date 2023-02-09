@@ -1,0 +1,15 @@
+.überich {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.überich h2 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.überich img {
+  border-radius: 20px;
+}

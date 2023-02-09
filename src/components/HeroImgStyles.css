@@ -52,7 +52,12 @@
 }
 
 .content .btn {
+  padding: 1rem 5rem;
   margin: 1rem 0.2rem;
+}
+
+.content .btn:first-child {
+  margin-left: 2.6rem;
 }
 
 @media screen and (max-width: 640px) {
@@ -66,5 +71,9 @@
 
   .content .link {
     display: initial;
+  }
+
+  .content .btn {
+    display: block;
   }
 }
