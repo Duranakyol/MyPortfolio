@@ -25,6 +25,15 @@ const MyCard = () => {
           <button className="btn">Contact</button>
         </Link>
       </div>
+      <div className="paragraph">
+        <h1>Duran Akyol</h1>
+        <h2>Frontend Web Entwickler</h2>
+        <p>
+          Als ein leidenschaftlicher Front End Web Entwickler bin ich auf der
+          Suche nach neuen Herausforderungen. Ich bin sehr gespannt darauf,
+          meine Fähigkeiten in diesem Gebiet bei Ihrem Unternehmen einzusetzen.
+        </p>
+      </div>
     </div>
   );
 };

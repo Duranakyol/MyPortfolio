@@ -1,9 +1,9 @@
-.project-heading {
+.blog-heading {
   text-align: center;
   padding: 4rem 0 2rem 0;
 }
 
-.project-container {
+.blog-container {
   max-width: 1140px;
   margin: auto;
   display: grid;
@@ -12,46 +12,45 @@
   padding-bottom: 5rem;
 }
 
-.project-card {
+.blog-card {
   background: #1a1919;
   padding: 1.2rem 1rem;
 }
 
-.project-card:hover {
+.blog-card:hover {
   box-shadow: 0px 0px 21px 4px rgba(34, 78, 221, 0.75);
   -webkit-box-shadow: 0px 0px 21px 4px rgba(34, 78, 221, 0.75);
   -moz-box-shadow: 0px 0px 21px 4px rgba(34, 78, 221, 0.75);
   cursor: pointer;
 }
 
-.project-card img {
+.blog-card img {
   width: 100%;
 }
 
-.project-title {
+.blog-title {
   color: #fff;
   padding: 1rem 0;
 }
 
-.pro-details p {
+.blog-details p {
   padding-bottom: 1rem;
   font-size: 1.1rem;
-  text-align: justify;
-  height: 120px;
+  height: 180px;
 }
 
-.pro-btns {
+.blog-btns {
   display: flex;
   justify-content: center;
   padding: 0.5rem 0;
 }
 
-.pro-btns .btn {
+.blog-btns .btn {
   padding: 0.5rem 1rem;
 }
 
 @media screen and (max-width: 980px) {
-  .project-container {
+  .blog-container {
     max-width: 90%;
     margin: auto;
     grid-template-columns: 1fr;

@@ -1,5 +1,5 @@
 import dysmSocial from "../assets/dysm-social.png";
-import pro2 from "../assets/project2.png";
+import herbalife71 from "../assets/herbalife71.png";
 import pro3 from "../assets/project3.png";
 
 const WorkCardData = [
@@ -10,7 +10,7 @@ const WorkCardData = [
     source: "https://dysm-social.netlify.app",
   },
   {
-    imgsrc: pro2,
+    imgsrc: herbalife71,
     title: "Herbalife 71",
     text: "Mit React habe ich eine Social Media erstellt. In diesem Projekt habe ich Formik-yup benutzt. Mit Formik habe ich eine Authorization gemacht. ",
     source: "Link at buraya",

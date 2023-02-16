@@ -1,16 +1,16 @@
 import React from "react";
-import WorkCard from "./WorkCard";
-import WorkCardData from "./WorkCardData";
-import "./WorkCardStyles.css";
+import BlogCard from "./BlogCard";
+import BlogCardData from "./BlogCardData";
+import "./BlogCardStyles.css";
 
-const Work = () => {
+const Blog = () => {
   return (
     <div className="work-container">
-      <h1 className="project-heading">Projects</h1>
-      <div className="project-container">
-        {WorkCardData.map((val, ind) => {
+      <h1 className="blog-heading">Blogs</h1>
+      <div className="blog-container">
+        {BlogCardData.map((val, ind) => {
           return (
-            <WorkCard
+            <BlogCard
               key={ind}
               imgsrc={val.imgsrc}
               title={val.title}
@@ -24,4 +24,4 @@ const Work = () => {
   );
 };
 
-export default Work;
+export default Blog;

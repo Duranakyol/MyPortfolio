@@ -11,5 +11,7 @@
 }
 
 .überich img {
+  height: 75%;
+  width: 75%;
   border-radius: 20px;
 }
