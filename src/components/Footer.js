@@ -44,10 +44,8 @@ const Footer = () => {
         <div className="right">
           <h4>Über ich</h4>
           <p>
-            Als ein leidenschaftlicher Front End Web Entwickler bin ich auf der
-            Suche nach neuen Herausforderungen. Ich bin sehr gespannt darauf,
-            meine Fähigkeiten in diesem Gebiet bei Ihrem Unternehmen
-            einzusetzen.
+            Ich bin ein unabhängiger Frontend Web Entwickler und Blogger. Sie
+            können sich über soziale Links mit mir verbinden.
           </p>
           <div className="social">
             {" "}
