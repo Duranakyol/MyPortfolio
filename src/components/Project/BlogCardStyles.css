@@ -30,13 +30,15 @@
 }
 
 .blog-title {
-  color: #fff;
+  color: chocolate;
   padding: 1rem 0;
+  text-align: center;
 }
 
 .blog-details p {
   padding-bottom: 1rem;
   font-size: 1.1rem;
+  text-align: center;
   height: 200px;
 }
 
