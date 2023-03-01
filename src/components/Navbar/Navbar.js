@@ -9,7 +9,7 @@ import {
   FaPhoneAlt,
   FaTimes,
 } from "react-icons/fa";
-import Logo2 from "../assets/Logo2.jpg";
+import Logo2 from "../../assets/img/Logo2.jpg";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);

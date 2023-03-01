@@ -41,6 +41,15 @@
   margin-top: 1rem;
 }
 
+.social .socialIcon {
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.socialIcon:hover {
+  color: chocolate;
+}
+
 h4 {
   font-size: 1.2rem;
   padding-bottom: 0.7rem;

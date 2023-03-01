@@ -5,16 +5,22 @@ import Project from "./routes/Project";
 import About from "./routes/About";
 import Contact from "./routes/Contact";
 import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/Navbar/Navbar";
+import Footer from "./components/Footer/Footer";
+import ErrorPage from "./components/ErrorPage/ErrorPage";
 
 function App() {
   return (
     <>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/project" element={<Project />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
+      <Footer />
     </>
   );
 }

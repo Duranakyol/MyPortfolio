@@ -18,7 +18,6 @@ const Footer = () => {
           <div className="location">
             <FaHome size={20} style={{ color: "#fff", marginRight: "2rem" }} />
             <div>
-              <p>Am Appelhorst 2</p>
               <p>12353 Berlin</p>
             </div>
           </div>
@@ -42,7 +41,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="right">
-          <h4>Über ich</h4>
+          <h4>Über mich</h4>
           <p>
             Ich bin ein unabhängiger Frontend Web Entwickler und Blogger. Sie
             können sich über soziale Links mit mir verbinden.
@@ -50,31 +49,19 @@ const Footer = () => {
           <div className="social">
             {" "}
             <a href="https://www.linkedin.com/in/duranakyol/" target="blank">
-              <FaLinkedin
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
+              <FaLinkedin className="socialIcon" size={30} />
             </a>
             <a href="https://github.com/Duranakyol" target="blank">
-              <FaGithub
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
+              <FaGithub className="socialIcon" size={30} />
             </a>
             <a
               href="https://www.xing.com/profile/Duran_Akyol/cv"
               target="blank"
             >
-              <FaXing
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
+              <FaXing className="socialIcon" size={30} />
             </a>
             <a href="https://medium.com/@duranakyol71" target="blank">
-              <FaMedium
-                size={30}
-                style={{ color: "#fff", marginRight: "1rem" }}
-              />
+              <FaMedium className="socialIcon" size={30} />
             </a>
           </div>
         </div>

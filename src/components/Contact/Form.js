@@ -14,7 +14,7 @@ const Form = () => {
         <label>Message</label>
         <textarea rows="6" placeholder="Type Your Message Here" />
         <a href="mailto:duran.akyol@yahoo.com" className="myBtn">
-          Schicken
+          Senden
         </a>
       </form>
     </div>

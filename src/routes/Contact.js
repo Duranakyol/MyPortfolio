@@ -1,16 +1,12 @@
 import React from "react";
-import Footer from "../components/Footer";
-import Form from "../components/Form";
+import Form from "../components/Contact/Form";
 import HeroImg2 from "../components/HeroImg2";
-import Navbar from "../components/Navbar";
 
 const Contact = () => {
   return (
     <div>
-      <Navbar />
-      <HeroImg2 heading="CONTACT" text="Sie können mir erreichen" />
+      <HeroImg2 heading="CONTACT" text="Sie können mir erreichen." />
       <Form />
-      <Footer />
     </div>
   );
 };

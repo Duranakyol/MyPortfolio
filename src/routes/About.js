@@ -1,20 +1,17 @@
 import React from "react";
-import AboutContent from "../components/AboutContent";
-import Footer from "../components/Footer";
+import AboutContent from "../components/About/AboutContent";
 import HeroImg2 from "../components/HeroImg2";
-import Navbar from "../components/Navbar";
-import Kompetenzen from "../components/Kompetenzen";
-import MyLebenslauf from "../components/MyLebenslauf";
+import Kompetenzen from "../components/About/Kompetenzen";
 
 const About = () => {
   return (
     <div>
-      <Navbar />
-      <HeroImg2 heading="ABOUT" text="Ich bin ein Frontend Web Entwickler" />
+      <HeroImg2
+        heading="ABOUT"
+        text="Sie können viele Infos über mich finden."
+      />
       <AboutContent />
       <Kompetenzen />
-      <MyLebenslauf />
-      <Footer />
     </div>
   );
 };

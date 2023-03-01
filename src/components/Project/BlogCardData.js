@@ -1,7 +1,9 @@
-import stateManagement from "../assets/React-State-Management.jpg";
-import scrum from "../assets/scrum.jpg";
-import reduxToolkit from "../assets/reduxtoolkit.png";
-import reactComponents from "../assets/reactComponents.jpg";
+import stateManagement from "../../assets/img/React-State-Management.jpg";
+import scrum from "../../assets/img/scrum.jpg";
+import reduxToolkit from "../../assets/img/reduxtoolkit.png";
+import reactComponents from "../../assets/img/reactComponents.jpg";
+import Bootstrap from "../../assets/img/bootstrap.jpg";
+import Netlify from "../../assets/img/netlify.jpg";
 
 const BlogCardData = [
   {
@@ -28,6 +30,18 @@ const BlogCardData = [
     title: "React Components",
     text: "React Component ‘leri kullanıcı arayüzünü şekillendiren, belirli görevleri olan, class veya fonksiyon olarak tanımlanmış, geriye react elementleri döndüren (JSX), opsiyonel olarak parametre (daha sonra bunlara prop diyeceğiz) alan yapı taşlarıdır.",
     source: "https://medium.com/@duranakyol71/react-components-2368284bf753",
+  },
+  {
+    imgsrc: Bootstrap,
+    title: "Bootstrap",
+    text: "Bootstrap, web siteleri ve uygulamaları için kullanılan bir CSS ve JavaScript kütüphanesidir. Bootstrap, web tasarımcılarının ve geliştiricilerinin işlerini kolaylaştırmak için bir dizi önceden oluşturulmuş bileşen, stil ve özellik sağlar.",
+    source: "https://medium.com/@duranakyol71/bootstrap-cc6c1921cbad",
+  },
+  {
+    imgsrc: Netlify,
+    title: "Netlify",
+    text: "Netlify ist eine Plattform, die Entwicklern hilft, Websites und Webanwendungen schnell und einfach zu erstellen, bereitzustellen und zu verwalten. Die Plattform wurde im Jahr 2014 gegründet und hat seitdem stark an Beliebtheit gewonnen, vor allem wegen ihrer Einfachheit und Zuverlässigkeit.",
+    source: "https://medium.com/@duranakyol71/netlify-deploying-b7d0b11da48c",
   },
 ];
 
