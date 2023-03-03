@@ -63,4 +63,13 @@ p {
   .footer-container {
     grid-template-columns: 1fr;
   }
+  .left {
+    display: flex;
+    align-items: center;
+  }
+
+  .right {
+    display: flex;
+    align-items: center;
+  }
 }

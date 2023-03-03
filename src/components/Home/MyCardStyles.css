@@ -45,13 +45,17 @@
 }
 
 .personNeu .name {
-  margin-top: 70px;
+  margin-top: 45px;
   text-align: center;
   font-size: 1.1rem;
 }
 
+.name > * {
+  margin-top: 5px;
+}
+
 button {
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .paragraph {
