@@ -7,6 +7,12 @@ import Netlify from "../../assets/img/netlify.jpg";
 
 const BlogCardData = [
   {
+    imgsrc: Netlify,
+    title: "Netlify",
+    text: "Netlify ist eine Plattform, die Entwicklern hilft, Websites und Webanwendungen schnell und einfach zu erstellen, bereitzustellen und zu verwalten. Die Plattform wurde im Jahr 2014 gegründet und hat seitdem stark an Beliebtheit gewonnen, vor allem wegen ihrer Einfachheit und Zuverlässigkeit.",
+    source: "https://medium.com/@duranakyol71/netlify-deploying-b7d0b11da48c",
+  },
+  {
     imgsrc: stateManagement,
     title: "React State Managament",
     text: "React state management, React uygulamalarınızda veri yönetimini nasıl yapacağınızı belirler. React’in kendi içinde bir state (durum) mekanizması vardır, ancak bazen uygulamanızdaki verilerin daha iyi yönetilmesi için daha gelişmiş yöntemlere ihtiyaç duyabilirsiniz.",
@@ -36,12 +42,6 @@ const BlogCardData = [
     title: "Bootstrap",
     text: "Bootstrap, web siteleri ve uygulamaları için kullanılan bir CSS ve JavaScript kütüphanesidir. Bootstrap, web tasarımcılarının ve geliştiricilerinin işlerini kolaylaştırmak için bir dizi önceden oluşturulmuş bileşen, stil ve özellik sağlar.",
     source: "https://medium.com/@duranakyol71/bootstrap-cc6c1921cbad",
-  },
-  {
-    imgsrc: Netlify,
-    title: "Netlify",
-    text: "Netlify ist eine Plattform, die Entwicklern hilft, Websites und Webanwendungen schnell und einfach zu erstellen, bereitzustellen und zu verwalten. Die Plattform wurde im Jahr 2014 gegründet und hat seitdem stark an Beliebtheit gewonnen, vor allem wegen ihrer Einfachheit und Zuverlässigkeit.",
-    source: "https://medium.com/@duranakyol71/netlify-deploying-b7d0b11da48c",
   },
 ];
 
