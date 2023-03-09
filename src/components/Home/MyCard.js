@@ -1,6 +1,6 @@
 import React from "react";
 import "./MyCardStyles.css";
-import profilePhoto from "../../assets/img/profilePhoto.png";
+import profilePhoto from "../../assets/img/profilePhoto.jpg";
 import { BsFillBriefcaseFill } from "react-icons/bs";
 import { Link } from "react-router-dom";
 
