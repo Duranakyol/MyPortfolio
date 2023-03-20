@@ -45,7 +45,7 @@
 }
 
 .personNeu .name {
-  margin-top: 58px;
+  margin-top: 66px;
   text-align: center;
   font-size: 1.1rem;
 }
@@ -98,8 +98,12 @@ button {
     height: 100%;
   }
 
+  .image img {
+    margin-top: 50%;
+  }
+
   .personNeu .name {
-    margin-top: 15px;
+    margin-top: 8px;
   }
 
   .paragraph {
