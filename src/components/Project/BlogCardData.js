@@ -15,7 +15,7 @@ const BlogCardData = [
   {
     imgsrc: GitHub,
     title: "Was ist der GitHub?",
-    text: "Github ist eine webbasierte Plattform, die es Entwicklern ermöglicht, gemeinsam an Projekten zu arbeiten, Quellcode zu verwalten und zu teilen sowie Fehler zu verfolgen. ",
+    text: "Github ist eine webbasierte Plattform, die es Entwicklern ermöglicht, gemeinsam an Projekten zu arbeiten, Quellcode zu verwalten und zu teilen sowie Fehler zu verfolgen. Es wurde im Jahr 2008 von Tom Preston-Werner und Chris Wanstrath gegründet und im Jahr 2018 von Microsoft übernommen.",
     source: "https://medium.com/@duranakyol71/was-ist-der-github-d1cce65f5132",
   },
   {
