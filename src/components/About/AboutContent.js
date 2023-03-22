@@ -6,7 +6,7 @@ import React2 from "../../assets/img/react2.webp";
 
 const AboutContent = () => {
   return (
-    <div className="about">
+    <div className="aboutContent">
       <div className="left">
         <h1>Wer bin ich ?</h1>
         <p>

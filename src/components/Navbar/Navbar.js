@@ -7,7 +7,6 @@ import {
   FaHome,
   FaPenFancy,
   FaPhoneAlt,
-  FaTimes,
 } from "react-icons/fa";
 import Logo2 from "../../assets/img/Logo2.jpg";
 
@@ -34,7 +33,11 @@ const Navbar = () => {
         <img src={Logo2} alt="Logo" />
         <span>D.Akyol</span>
       </Link>
-      <ul className={click ? "nav-menu active" : "nav-menu"}>
+      <ul
+        className={click ? "nav-menu active" : "nav-menu"}
+        id="navMenu"
+        onClick={handleClick}
+      >
         <li>
           <FaHome className="icon" />
           <Link to="/">Home</Link>
@@ -53,11 +56,7 @@ const Navbar = () => {
         </li>
       </ul>
       <div className="hamburger" onClick={handleClick}>
-        {click ? (
-          <FaTimes size={20} style={{ color: "#fff" }} />
-        ) : (
-          <FaBars size={20} style={{ color: "#fff" }} />
-        )}
+        <FaBars size={20} style={{ color: "#fff" }} />
       </div>
     </div>
   );

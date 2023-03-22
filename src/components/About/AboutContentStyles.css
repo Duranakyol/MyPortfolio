@@ -1,4 +1,4 @@
-.about {
+.aboutContent {
   display: flex;
   width: 100%;
   margin: 3rem 0;
@@ -8,18 +8,18 @@
   height: 100%;
 }
 
-.about .left {
+.aboutContent .left {
   text-align: center;
   margin: auto;
   padding: 1rem;
   max-width: 350px;
 }
 
-.about .left p {
+.aboutContent .left p {
   margin: 1.2rem 0;
 }
 
-.about .right {
+.aboutContent .right {
   max-width: 700px;
 }
 
